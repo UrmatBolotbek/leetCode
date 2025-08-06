@@ -1,3 +1,5 @@
+package preffixSum;
+
 public class PrefixSum {
     public boolean[] answerQueries(int[] nums, int[][] queries, int limit) {
         int[] prefix = new int[nums.length];
